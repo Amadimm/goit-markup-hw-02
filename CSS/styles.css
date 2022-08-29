@@ -37,7 +37,8 @@ body {
 }
 
 .nav_list_link:hover,
-.nav_list_link:focus {
+.nav_list_link:focus,
+.contacts_link:hover {
     color: var(--main-color)
 }
 .contacts_link {
@@ -51,7 +52,5 @@ body {
     
         color: #757575;
 }
-.contacts_link:hover {
-    color: var(--main-color)
-}
+
 /* =======END HEADER====== */
