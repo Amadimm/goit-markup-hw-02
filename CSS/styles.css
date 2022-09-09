@@ -11,6 +11,22 @@ body {
 
 
 /* =======HEADER====== */
+header {
+    border-bottom: solid 1px #F5F4FA;
+    width: 100%;
+}
+
+.header {position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;}
+
+    .navigation_list {
+        list-style: none;
+    }
 .navigation_link {
 
     font-family: 'Raleway';
@@ -25,6 +41,8 @@ body {
     
         color: #2196F3;
         color: #000000;
+
+       
 }
 .nav_list_link {
 
@@ -44,6 +62,10 @@ body {
 .contacts_link:hover,
 .contacts_link:focus {
     color: var(--main-color)
+}
+
+.contacts_list {
+    list-style: none;
 }
 .contacts_link {
 
@@ -104,6 +126,10 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    
 }
 
+.list {
+    list-style: none;
+}
+
 .list_item_h4 {
     
     font-style: normal;
@@ -141,6 +167,10 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         color: #212121;
 }
 
+.img_list {
+    list-style: none;
+}
+
 .team_img_h5 {
    
         font-style: normal;
@@ -154,6 +184,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     
         color: #212121;
 }
+
+.team_list {
+list-style: none;
+}
+
 
 .team_img_p {
   
@@ -245,6 +280,9 @@ font-family: 'Roboto';
     background: #2F303A;
 }
 
+.address_list {
+    list-style: none;
+}
 
 .address_p {
    
