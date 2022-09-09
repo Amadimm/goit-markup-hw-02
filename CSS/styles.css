@@ -195,6 +195,10 @@ list-style: none;
         color: #757575;
 }
 
+.btn_list {
+    list-style: none;
+}
+
 .btn {
 font-family: 'Roboto';
         font-style: normal;
