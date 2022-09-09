@@ -11,10 +11,35 @@ body {
 
 
 /* =======HEADER====== */
+header {
+    border-bottom: solid 1px #F5F4FA;
+    width: 100%;
+}
+
+.header {
+display: flex;
+    align-items: center;
+    height: 80px;
+}
 
 
+.header_section{
+    width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
 
+        display: flex;
+            align-items: center;
+}
 
+.navigation {
+
+    display: flex;
+        align-items: center;
+        width: 50%;
+        gap: 93px
+}
     .navigation_list {
         list-style: none;
     }
@@ -34,6 +59,10 @@ body {
         color: #000000;
 
        
+}
+
+.web {
+    color: #2196F3;
 }
 .nav_list_link {
 
